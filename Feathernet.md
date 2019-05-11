@@ -391,7 +391,7 @@ In order to provide a mapping from the bytes in a packet to signals, it is necce
 
 ### Signal List Format
 
-Due to the number of signals taken up by protocol headers, it is impractical to use raw signals beyond link-local scope. To facilitate such signalling on wider scales, a Signal List format is defined, to allow embedding arbitrary singals at arbitrary locations in the packet. Signal List may be used as a payload in any protocol that supports binary payload data.
+Due to the number of signals taken up by protocol headers, it is impractical to use raw signals beyond link-local scope. To facilitate such signalling on wider scales, a Signal List format is defined, to allow embedding arbitrary signals at arbitrary locations in the packet. Signal List may be used as a payload in any protocol that supports binary payload data.
 
 | offset | Fields |
 |--------|------------------|
